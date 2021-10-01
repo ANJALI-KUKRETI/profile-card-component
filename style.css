@@ -16,7 +16,27 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   overflow: hidden;
 }
-
+.theme111 {
+  background-color: rgb(109, 42, 73);
+}
+.theme222 {
+  background-color: rgb(36, 148, 96);
+}
+.theme333 {
+  background-color: rgb(5, 5, 5);
+}
+.back1 {
+  background-image: none !important;
+  background-color: rgb(70, 8, 28) !important;
+}
+.back2 {
+  background-image: none !important;
+  background-color: rgb(43, 117, 49) !important;
+}
+.back3 {
+  background-image: none !important;
+  background-color: rgb(29, 29, 29) !important;
+}
 .container {
   color: rgb(7, 0, 0);
   background-color: #faf9f9;
@@ -32,8 +52,9 @@ body {
   height: 130px;
   width: 310px;
   border-radius: 10px 10px 0px 0px;
-  background-color: aqua;
+  background-color: rgb(97, 197, 197);
 }
+
 .image {
   position: relative;
   top: 65%;
@@ -84,4 +105,47 @@ div {
   position: relative;
   top: -5px;
   color: hsl(0, 0%, 59%);
+}
+
+/* Customization */
+.con {
+  margin: 20px;
+}
+.btn {
+  margin: 0px 10px;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Kumbh Sans", sans-serif;
+  color: white;
+  letter-spacing: 1px;
+}
+.theme1 {
+  background: linear-gradient(rgb(136, 121, 128), rgb(168, 64, 97));
+}
+.theme2 {
+  background: linear-gradient(rgb(98, 211, 158), rgb(43, 117, 49));
+}
+.theme3 {
+  background: linear-gradient(rgb(5, 5, 5), rgb(128, 126, 126));
+}
+.original {
+  background: linear-gradient(rgb(109, 178, 209), grey);
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 500px) {
+  .btn {
+    margin: 0px 2px;
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .container {
+    width: 310px;
+    height: 320px;
+  }
 }
